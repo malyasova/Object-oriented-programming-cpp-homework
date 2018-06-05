@@ -1,0 +1,15 @@
+//Const references
+Classname const& and const Classname& mean the same thing - constant reference.
+//Pointers
+When we make a class containing pointers, we must take care of copying and destroying instances.
+//Attribute of class
+declared with static, accessed by Classname::variablename
+//Polymorphism
+A virtual class is a class that has subclasses with virtual inheritance.
+All subclasses of a virtual class must call a constructor of that class.
+Destructors in virtual classes must be declared virtual.
+Constructor cannot be virtual.
+The virtual aspect is ignored in the constructors: the method of the current class is called
+//Multiple heritage
+The order of execution of constructors is the same as the order of declaration of inheritance, and not the same as the order they're written in the initialization list. Destructors are always called in inverse order to constructors.
+
